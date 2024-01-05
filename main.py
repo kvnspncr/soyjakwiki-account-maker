@@ -71,7 +71,7 @@ def create_account(session, tokens):
             break #change to continue if you want to keep making accounts i might add a feature to save creds later!
         else:
             print(f"Failed making account {random_username}")
-            time.sleep(2)
+            #time.sleep(2) #in case you plan on persisting with the acc creation uncomment sleep to avoid rate limit
             break #change to continue instead of break if you want it to try again!
 
 def main(): #main func i suggest not touching anything here
