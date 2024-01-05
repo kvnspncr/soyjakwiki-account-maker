@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import urllib.parse
 import random
 import time
-#currently borked because logins are disabled :)
+#currently borked because signups are disabled :)
 def get_account_creation_details(session):
     login_url = 'https://soyjakwiki.net/index.php?title=Special:CreateAccount&returnto=Main+Page'
     initial_response = session.get(login_url)
