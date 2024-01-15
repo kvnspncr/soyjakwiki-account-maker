@@ -75,5 +75,5 @@ while True:
             time.sleep(2)
             continue
     except KeyboardInterrupt:
-        print("Exitting!")
+        print("Exiting!")
         break
